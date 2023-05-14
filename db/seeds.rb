@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Article.find_or_create_by(title: "Qualquer título", description: "Descrição qualquer")
+Admin.first_or_create(email: "admin@raro.com", password: "123456")
